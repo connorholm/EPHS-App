@@ -19,7 +19,7 @@ struct ContentView: View {
                     Text("      fifth Lunch")
                     Text("      Second Lunch")
                     Text("      Third Lunch")
-                    Text("      Forth Lunch")
+                    Text("      sixth Lunch")
                     Text("Period Four")
                 }//.frame(maxWidth: 150, maxHeight: height, alignment: .center)
                 List {
