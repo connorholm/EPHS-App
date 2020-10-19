@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("Monday - Thursday").font(.title)
             HStack {
                 List {
-                    Text("Period One")
+                    Text("Period First")
                     Text("Period Two")
                     Text("Period Three")
                     Text("      fifth Lunch")
