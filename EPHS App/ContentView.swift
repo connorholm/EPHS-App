@@ -16,7 +16,7 @@ struct ContentView: View {
                     Text("Period One")
                     Text("Period Two")
                     Text("Period Three")
-                    Text("      First Lunch")
+                    Text("      fifth Lunch")
                     Text("      Second Lunch")
                     Text("      Third Lunch")
                     Text("      Forth Lunch")
