@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct LoginView: View {
+    @ObservedObject var viewRouter: ViewRouter
+    
     var body: some View {
         VStack {
-            Text("Login").font(.title)
+            Button(action: {
+                viewRouter.currentPage = "tutorial"
+            }) {
+                Text("Login").font(.title)
+            }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginView(viewRouter: ViewRouter())
     }
 }
