@@ -14,6 +14,7 @@ struct HomeView: View {
         VStack() {
             Text("Our Homepage")
                 .font(.title)
+            progressView()
             Spacer()
             Button(action: {
                 viewRouter.currentPage = "login"

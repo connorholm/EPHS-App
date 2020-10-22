@@ -22,15 +22,13 @@
 		9181B44F2524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9181B44B2524D2CC00B305E2 /* Schedule_Widget.intentdefinition */; };
 		9181B4502524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9181B44B2524D2CC00B305E2 /* Schedule_Widget.intentdefinition */; };
 		9181B4532524D2CD00B305E2 /* Schedule WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9181B4422524D2CC00B305E2 /* Schedule WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9181B4602524DC5700B305E2 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B45F2524DC5700B305E2 /* ProgressBar.swift */; };
-		9181B4662524DC7800B305E2 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B4652524DC7800B305E2 /* Timer.swift */; };
 		91D6FC57253F300900BFB052 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC56253F300900BFB052 /* ViewRouter.swift */; };
 		91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC5C253F303400BFB052 /* MotherView.swift */; };
 		91D6FC73253F32A800BFB052 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC72253F32A800BFB052 /* TutorialView.swift */; };
 		91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC78253F33EC00BFB052 /* HomeView.swift */; };
 		91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */; };
 		91E68DC0252621E3001BD7F9 /* Progress Bar in Resources */ = {isa = PBXBuildFile; fileRef = 91E68DBF252621E3001BD7F9 /* Progress Bar */; };
-		91E68DC625262451001BD7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E68DC525262451001BD7F9 /* ViewController.swift */; };
+		9D9A49AE2541D830009F5DD9 /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A49AD2541D830009F5DD9 /* progressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,15 +91,13 @@
 		9181B44B2524D2CC00B305E2 /* Schedule_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Schedule_Widget.intentdefinition; sourceTree = "<group>"; };
 		9181B44C2524D2CD00B305E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9181B44E2524D2CD00B305E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9181B45F2524DC5700B305E2 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
-		9181B4652524DC7800B305E2 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		91D6FC56253F300900BFB052 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		91D6FC5C253F303400BFB052 /* MotherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		91D6FC72253F32A800BFB052 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		91D6FC78253F33EC00BFB052 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsView.swift; sourceTree = "<group>"; };
 		91E68DBF252621E3001BD7F9 /* Progress Bar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Progress Bar"; sourceTree = "<group>"; };
-		91E68DC525262451001BD7F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D9A49AD2541D830009F5DD9 /* progressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +165,6 @@
 				91D6FC5C253F303400BFB052 /* MotherView.swift */,
 				91D6FC7F253F35C200BFB052 /* ViewControllers */,
 				91D6FC56253F300900BFB052 /* ViewRouter.swift */,
-				91E68DC525262451001BD7F9 /* ViewController.swift */,
 				91D6FC7E253F35AC00BFB052 /* Views */,
 				91D6FC78253F33EC00BFB052 /* HomeView.swift */,
 				91D6FC72253F32A800BFB052 /* TutorialView.swift */,
@@ -178,8 +173,7 @@
 				9181B4112524D1E700B305E2 /* Assets.xcassets */,
 				9181B4162524D1E700B305E2 /* LaunchScreen.storyboard */,
 				9181B4192524D1E700B305E2 /* Info.plist */,
-				9181B45F2524DC5700B305E2 /* ProgressBar.swift */,
-				9181B4652524DC7800B305E2 /* Timer.swift */,
+				9D9A49AD2541D830009F5DD9 /* progressView.swift */,
 				91E68DBF252621E3001BD7F9 /* Progress Bar */,
 				9181B4132524D1E700B305E2 /* Preview Content */,
 			);
@@ -411,12 +405,10 @@
 				9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */,
 				9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */,
 				9181B4502524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */,
-				9181B4662524DC7800B305E2 /* Timer.swift in Sources */,
 				91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */,
 				91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */,
-				91E68DC625262451001BD7F9 /* ViewController.swift in Sources */,
 				91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */,
-				9181B4602524DC5700B305E2 /* ProgressBar.swift in Sources */,
+				9D9A49AE2541D830009F5DD9 /* progressView.swift in Sources */,
 				9181B4102524D1E600B305E2 /* LoginView.swift in Sources */,
 				91D6FC73253F32A800BFB052 /* TutorialView.swift in Sources */,
 				91D6FC57253F300900BFB052 /* ViewRouter.swift in Sources */,
