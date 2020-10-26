@@ -22,20 +22,32 @@ struct HomeView: View {
                 Text("Log out")
             })
             HStack {
+                
+            }
+            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Image("toDoList")
+                    .resizable()
+                    .frame(width: 60, height: 60)
+              
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Teacher\nAnnouncements")
+                    Image("announcements").resizable()
+                        .frame(width: 60, height: 60)
                 }
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Club\nAnnouncements")
+                    Image("clubs")
+                        .resizable()
+                        .frame(width: 60, height: 60)
                 }
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("More")
+                    Image("menu")
+                        .resizable()
+                        .frame(width: 60, height: 60)
+                
                 }
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Map")
-                }
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Account")
+                    Image("account")
+                        .resizable()
+                        .frame(width: 60, height: 60)
                 }
             }
             .padding()
@@ -47,6 +59,9 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(viewRouter: ViewRouter())
+        Group {
+            HomeView(viewRouter: ViewRouter())
+            HomeView(viewRouter: ViewRouter())
+        }
     }
 }
