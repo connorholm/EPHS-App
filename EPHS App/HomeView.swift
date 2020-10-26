@@ -22,6 +22,7 @@ struct HomeView: View {
                 Text("Log out")
             })
             HStack {
+                Text("This is a a change")
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Teacher\nAnnouncements")
                 }
