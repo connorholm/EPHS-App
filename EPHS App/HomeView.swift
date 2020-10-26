@@ -22,6 +22,12 @@ struct HomeView: View {
                 Text("Log out")
             })
             HStack {
+                
+            }
+            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Image("toDoList")
+                    .resizable()
+                    .frame(width: 60, height: 60)
               
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                     Image("announcements").resizable()
@@ -36,11 +42,7 @@ struct HomeView: View {
                     Image("menu")
                         .resizable()
                         .frame(width: 60, height: 60)
-                }
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Image("toDoList")
-                        .resizable()
-                        .frame(width: 60, height: 60)
+                
                 }
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                     Image("account")
