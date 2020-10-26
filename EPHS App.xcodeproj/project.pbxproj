@@ -29,6 +29,7 @@
 		91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */; };
 		91E68DC0252621E3001BD7F9 /* Progress Bar in Resources */ = {isa = PBXBuildFile; fileRef = 91E68DBF252621E3001BD7F9 /* Progress Bar */; };
 		9D9A49AE2541D830009F5DD9 /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A49AD2541D830009F5DD9 /* progressView.swift */; };
+		A6E0F52D25471D3B000E33F7 /* Assignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0F52C25471D3B000E33F7 /* Assignments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsView.swift; sourceTree = "<group>"; };
 		91E68DBF252621E3001BD7F9 /* Progress Bar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Progress Bar"; sourceTree = "<group>"; };
 		9D9A49AD2541D830009F5DD9 /* progressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressView.swift; sourceTree = "<group>"; };
+		A6E0F52C25471D3B000E33F7 /* Assignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				91D6FC72253F32A800BFB052 /* TutorialView.swift */,
 				9181B40F2524D1E600B305E2 /* LoginView.swift */,
 				91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */,
+				A6E0F52C25471D3B000E33F7 /* Assignments.swift */,
 				9181B4112524D1E700B305E2 /* Assets.xcassets */,
 				9181B4162524D1E700B305E2 /* LaunchScreen.storyboard */,
 				9181B4192524D1E700B305E2 /* Info.plist */,
@@ -405,6 +408,7 @@
 				9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */,
 				9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */,
 				9181B4502524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */,
+				A6E0F52D25471D3B000E33F7 /* Assignments.swift in Sources */,
 				91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */,
 				91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */,
 				91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */,

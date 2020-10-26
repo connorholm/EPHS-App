@@ -22,6 +22,7 @@ struct HomeView: View {
                 Text("Log out")
             })
             HStack {
+              
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                     Image("announcements").resizable()
                         .frame(width: 60, height: 60)

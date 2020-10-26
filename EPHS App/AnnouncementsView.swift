@@ -18,3 +18,4 @@ struct AnnouncementsView_Previews: PreviewProvider {
         AnnouncementsView()
     }
 }
+
