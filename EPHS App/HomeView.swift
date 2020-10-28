@@ -12,7 +12,7 @@ struct HomeView: View {
 
     var body: some View {
         VStack() {
-            Text("Our Homepage")
+            Text("My Homepage")
                 .font(.title)
             
             switch viewRouter.homePage {
