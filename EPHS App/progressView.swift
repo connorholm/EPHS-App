@@ -19,11 +19,11 @@ struct ProgressBar: View {
 }
 struct progressView: View {
     @State var progressValue: Float = 0.0
-    
+    var currentTime = getTime()
     var body: some View {
         VStack {
             ProgressBar(value: $progressValue).frame(height: 20)
-            
+            Text(verbatim: currentTime)
             Button(action: {
                 self.startProgressBar()
             }) {
