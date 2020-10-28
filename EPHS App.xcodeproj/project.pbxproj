@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		910D0C7B2549C67800AB6EF4 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D0C7A2549C67800AB6EF4 /* Schoology.swift */; };
+		910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D0C802549C70700AB6EF4 /* Schoology.swift */; };
 		9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40B2524D1E600B305E2 /* AppDelegate.swift */; };
 		9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40D2524D1E600B305E2 /* SceneDelegate.swift */; };
 		9181B4102524D1E600B305E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40F2524D1E600B305E2 /* LoginView.swift */; };
@@ -73,7 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		910D0C7A2549C67800AB6EF4 /* Schoology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Schoology.swift; path = ../Schoology.swift; sourceTree = "<group>"; };
+		910D0C802549C70700AB6EF4 /* Schoology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schoology.swift; sourceTree = "<group>"; };
 		9181B4082524D1E600B305E2 /* EPHS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPHS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9181B40B2524D1E600B305E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9181B40D2524D1E600B305E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,9 +182,9 @@
 				9181B4192524D1E700B305E2 /* Info.plist */,
 				9D9A49AD2541D830009F5DD9 /* progressView.swift */,
 				9D9A49E12549BE46009F5DD9 /* time.swift */,
+				910D0C802549C70700AB6EF4 /* Schoology.swift */,
 				91E68DBF252621E3001BD7F9 /* Progress Bar */,
 				9181B4132524D1E700B305E2 /* Preview Content */,
-				910D0C7A2549C67800AB6EF4 /* Schoology.swift */,
 			);
 			path = "EPHS App";
 			sourceTree = "<group>";
@@ -415,7 +415,7 @@
 				9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */,
 				9181B4502524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */,
 				A6E0F52D25471D3B000E33F7 /* Assignments.swift in Sources */,
-				910D0C7B2549C67800AB6EF4 /* Schoology.swift in Sources */,
+				910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */,
 				91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */,
 				91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */,
 				91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */,
