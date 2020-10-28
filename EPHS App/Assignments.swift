@@ -11,13 +11,29 @@ struct AssignmentsView: View {
     var clas = "what ever class your in"
     var whatAssignment = "teacher assignment"
     var body: some View {
+        VStack{
         Text("Assignments Page")
 
             HStack{
-                
                 Text(clas)
                 Text(":")
                 Text(whatAssignment)
+            }
+            HStack{
+                Text(clas)
+                Text(":")
+                Text(whatAssignment)
+            }
+            HStack{
+                Text(clas)
+                Text(":")
+                Text(whatAssignment)
+            }
+            HStack{
+                Text(clas)
+                Text(":")
+                Text(whatAssignment)
+            }
         }
         
         
