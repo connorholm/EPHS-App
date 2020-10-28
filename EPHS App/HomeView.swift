@@ -14,7 +14,15 @@ struct HomeView: View {
         VStack() {
             Text("Our Homepage")
                 .font(.title)
-            progressView()
+            
+            switch viewRouter.homePage {
+            case "progress":
+                progressView()
+            default:
+                Text("ERROR: No view")
+                    .foregroundColor(Color.red)
+            }
+            
             Spacer()
             Button(action: {
                 viewRouter.currentPage = "login"
@@ -22,29 +30,28 @@ struct HomeView: View {
                 Text("Log out")
             })
             HStack {
-                
-            }
-            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                Image("toDoList")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-              
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Image("announcements").resizable()
+                Button(action: {}) {
+                    Image("toDoList")
+                        .resizable()
                         .frame(width: 60, height: 60)
                 }
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {}) {
+                    Image("announcements")
+                        .resizable()
+                        .frame(width: 60, height: 60)
+                }
+                Button(action: {}) {
                     Image("clubs")
                         .resizable()
                         .frame(width: 60, height: 60)
                 }
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {}) {
                     Image("menu")
                         .resizable()
                         .frame(width: 60, height: 60)
                 
                 }
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {}) {
                     Image("account")
                         .resizable()
                         .frame(width: 60, height: 60)
@@ -60,7 +67,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            HomeView(viewRouter: ViewRouter())
             HomeView(viewRouter: ViewRouter())
         }
     }

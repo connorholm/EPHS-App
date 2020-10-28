@@ -17,4 +17,9 @@ class ViewRouter: ObservableObject {
             objectWillChange.send(self)
         }
     }
+    var homePage: String = "progress" {
+        didSet {
+            objectWillChange.send(self)
+        }
+    }
 }

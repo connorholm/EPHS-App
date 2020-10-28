@@ -15,12 +15,12 @@ struct MotherView: View {
     var body: some View {
         VStack {
             switch viewRouter.currentPage {
-            case "tutorial":
-                TutorialView(viewRouter: viewRouter)
-            case "home":
-                HomeView(viewRouter: viewRouter)
-            default:
-                LoginView(viewRouter: viewRouter)
+                case "tutorial":
+                    TutorialView(viewRouter: viewRouter)
+                case "home":
+                    HomeView(viewRouter: viewRouter)
+                default:
+                    LoginView(viewRouter: viewRouter)
             }
         }
     }
