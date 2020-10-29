@@ -9,13 +9,20 @@ import SwiftUI
 
 struct AnnouncementsView: View {
     var body: some View {
-        Text("Announcemts Page").font(.title)
+        VStack {
+            Text("Announcemts Page").font(.title)
+            
+            Spacer()
+        }
+        
     }
 }
 
 struct AnnouncementsView_Previews: PreviewProvider {
     static var previews: some View {
         AnnouncementsView()
+            .padding()
+        
     }
 }
 
