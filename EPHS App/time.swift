@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//To return this method use the parameter minute/second/hour/current
 func getTime(timeType: String) -> Int {
     let now = Date()
 
@@ -27,18 +28,23 @@ func getTime(timeType: String) -> Int {
     let endHour = str.index(str.endIndex, offsetBy: -9)
     let rangeHour = startHour..<endHour
     
-    let second = String(str[range])
-    let minute = String(str[rangeMinute])
-    let Hour = String(str[rangeHour])
+    let second = Int(String(str[range])) ?? 0
+    let minute = Int(String(str[rangeMinute])) ?? 0
+    let Hour = Int(String(str[rangeHour])) ?? 0
+    
+    let currentTime = (Hour * 3600)+(minute * 60)+second
     
     if timeType == "minute" {
-        return Int(minute) ?? 0
+        return Int(minute) 
     }
     else if timeType == "second" {
-        return Int(second) ?? 0
+        return Int(second) 
     }
     else if timeType == "hour" {
-        return Int(Hour) ?? 0
+        return Int(Hour) 
+    }
+    else if timeType == "current" {
+        return currentTime
     }
     else{
         return 0
