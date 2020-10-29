@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func getTime() -> String {
+func getTime(timeType: String) -> Int {
     let now = Date()
 
     let formatter = DateFormatter()
@@ -30,11 +30,17 @@ func getTime() -> String {
     let second = String(str[range])
     let minute = String(str[rangeMinute])
     let Hour = String(str[rangeHour])
-
-    let time = {
-        "Hour": Hour,
-        "Minutes": minute,
-        "Seconds": second
+    
+    if timeType == "minute" {
+        return Int(minute) ?? 0
     }
-    return time
+    else if timeType == "second" {
+        return Int(second) ?? 0
+    }
+    else if timeType == "hour" {
+        return Int(Hour) ?? 0
+    }
+    else{
+        return 0
+    }
 }
