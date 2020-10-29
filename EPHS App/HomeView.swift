@@ -16,51 +16,22 @@ struct HomeView: View {
                 .font(.title)
             
             switch viewRouter.homePage {
-            case "progress":
+            case "toDoList":
                 progressView()
+            case "announcements":
+                AnnouncementsView()
             default:
-                Text("ERROR: No view")
+                Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
-            }
-            
+            }            
             Spacer()
             Button(action: {
                 viewRouter.currentPage = "login"
             }, label: {
                 Text("Log out")
             })
-            HStack {
-                Button(action: {}) {
-                    Image("toDoList")
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                }
-                Button(action: {}) {
-                    Image("announcements")
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                }
-                Button(action: {}) {
-                    Image("clubs")
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                }
-                Button(action: {}) {
-                    Image("menu")
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                
-                }
-                Button(action: {}) {
-                    Image("account")
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                }
-            }
-            .padding()
-            .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, alignment: .center)
-            .border(Color.black, width: 1)
-        }.frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 100, maxHeight: .infinity, alignment: .center)
+            NavMenuView(viewRouter: viewRouter)
+        }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
     }
 }
 
