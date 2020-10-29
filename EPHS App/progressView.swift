@@ -22,12 +22,14 @@ struct progressView: View {
     var currentHour = getTime(timeType: "hour")
     var currentMinute = getTime(timeType: "minute")
     var currentSecond = getTime(timeType: "second")
+    var currentTime = getTime(timeType: "current")
     var body: some View {
         VStack {
             ProgressBar(value: $progressValue).frame(height: 20)
             Text("Hour "+String(currentHour))
             Text("Minute "+String(currentMinute))
             Text("Second "+String(currentSecond))
+            Text("Current Time in Seconds: "+String(currentTime))
             Button(action: {
                 self.startProgressBar()
             }) {
