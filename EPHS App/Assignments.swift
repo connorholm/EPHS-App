@@ -10,33 +10,27 @@ import SwiftUI
 struct AssignmentsView: View {
     var clas = "what ever class your in"
     var whatAssignment = "teacher assignment"
+    @State private var isExpanded = false
+    
     var body: some View {
-        VStack{
-        Text("Assignments Page")
-
-            HStack{
-                Text(clas)
-                Text(":")
-                Text(whatAssignment)
+        VStack(alignment: .leading, spacing: 15){
+            Text("Chinese")
+                .font(.largeTitle)
+            Text("assignments")
+                .font(.title3)
+           
+            DisclosureGroup("Title", isExpanded: $isExpanded){
+            VStack{
+                ForEach(1...5, id: \.self){ num in
+                    Text("\(num)")
+                        .font(.title3)
+                        .padding(.all)
+                    
+                }
             }
-            HStack{
-                Text(clas)
-                Text(":")
-                Text(whatAssignment)
             }
-            HStack{
-                Text(clas)
-                Text(":")
-                Text(whatAssignment)
-            }
-            HStack{
-                Text(clas)
-                Text(":")
-                Text(whatAssignment)
-            }
+            Spacer()
         }
-        
-        
     }
 }
 
