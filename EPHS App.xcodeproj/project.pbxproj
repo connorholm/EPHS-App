@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045D7A112550621A00C0DB48 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A102550621A00C0DB48 /* ClubView.swift */; };
+		045D7A172550632600C0DB48 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A162550632600C0DB48 /* MenuView.swift */; };
+		045D7A272550640A00C0DB48 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A262550640A00C0DB48 /* AccountView.swift */; };
 		910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D0C802549C70700AB6EF4 /* Schoology.swift */; };
 		911DC51B254B11AD002DEEA2 /* NavMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC51A254B11AD002DEEA2 /* NavMenuView.swift */; };
 		9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40B2524D1E600B305E2 /* AppDelegate.swift */; };
@@ -74,6 +77,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		045D7A102550621A00C0DB48 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		045D7A162550632600C0DB48 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		045D7A262550640A00C0DB48 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		910D0C802549C70700AB6EF4 /* Schoology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schoology.swift; sourceTree = "<group>"; };
 		911DC51A254B11AD002DEEA2 /* NavMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavMenuView.swift; sourceTree = "<group>"; };
 		9181B4082524D1E600B305E2 /* EPHS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPHS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +181,9 @@
 				91D6FC56253F300900BFB052 /* ViewRouter.swift */,
 				91D6FC7E253F35AC00BFB052 /* Views */,
 				91D6FC78253F33EC00BFB052 /* HomeView.swift */,
+				045D7A102550621A00C0DB48 /* ClubView.swift */,
+				045D7A262550640A00C0DB48 /* AccountView.swift */,
+				045D7A162550632600C0DB48 /* MenuView.swift */,
 				911DC51A254B11AD002DEEA2 /* NavMenuView.swift */,
 				91D6FC72253F32A800BFB052 /* TutorialView.swift */,
 				9181B40F2524D1E600B305E2 /* LoginView.swift */,
@@ -417,11 +426,14 @@
 				9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */,
 				9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */,
 				9181B4502524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */,
+				045D7A272550640A00C0DB48 /* AccountView.swift in Sources */,
 				911DC51B254B11AD002DEEA2 /* NavMenuView.swift in Sources */,
 				A6E0F52D25471D3B000E33F7 /* Assignments.swift in Sources */,
 				910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */,
+				045D7A112550621A00C0DB48 /* ClubView.swift in Sources */,
 				91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */,
 				91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */,
+				045D7A172550632600C0DB48 /* MenuView.swift in Sources */,
 				91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */,
 				9D9A49AE2541D830009F5DD9 /* progressView.swift in Sources */,
 				9D9A49E22549BE46009F5DD9 /* time.swift in Sources */,

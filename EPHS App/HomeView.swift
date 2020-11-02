@@ -20,6 +20,12 @@ struct HomeView: View {
                 progressView()
             case "announcements":
                 AnnouncementsView()
+            case "clubs":
+                ClubView()
+            case "menu":
+                MenuView()
+            case "account":
+                AccountView()
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
