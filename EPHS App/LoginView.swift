@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-let storedSchoolID = "000000"
-let password = "abcabc"
-
+// MESSAGE: This is where we can use Schoology API for SchoolIDs and passwords
+let storedSchoolID = "0"
+let storedPassword = "0"
+//
 
 struct LoginView: View {
     @ObservedObject var viewRouter: ViewRouter
@@ -35,10 +36,20 @@ struct LoginView: View {
                     Text("Information not correct. Try again.")
                         .offset(y: -10)
                         .foregroundColor(.red)
+                        .animation(Animation.default)
                 }
                 
+                
                 Button(action: {
-                    viewRouter.currentPage = "tutorial"
+                    if self.schoolid == storedSchoolID && self.password == storedPassword {
+                        self.authenticationDidSucceed = true
+                    } else {
+                        self.authenticationDidFail = true
+                    }
+                    
+                    if authenticationDidSucceed {
+                        viewRouter.currentPage = "tutorial"
+                    }
                 }) {
                     Text("Login")
                         .font(.title)
@@ -50,15 +61,6 @@ struct LoginView: View {
                 }
             }
             .padding()
-            if authenticationDidSucceed {
-                Text("Login succedded!")
-                    .font(.headline)
-                    .frame(width: 230, height: 60)
-                    .background(Color.green)
-                    .cornerRadius(20.0)
-                    .offset(y: -35)
-                    .animation(Animation.default)
-            }
         }
         
     }
