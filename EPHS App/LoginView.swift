@@ -7,35 +7,60 @@
 
 import SwiftUI
 
+let storedSchoolID = "000000"
+let password = "abcabc"
+
+
 struct LoginView: View {
     @ObservedObject var viewRouter: ViewRouter
     
     @State var schoolid: String = ""
     @State var password: String = ""
     
+    @State var authenticationDidFail: Bool = false
+    @State var authenticationDidSucceed: Bool = false
+    
     var body: some View {
-        VStack {
-            Image("ephs")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .padding(.bottom, 75)
-            
-            SchoolidTextField(schoolid: $schoolid)
-            PasswordSecureField(password: $password)
-            
-            Button(action: {
-                viewRouter.currentPage = "tutorial"
-            }) {
-                Text("Login")
-                    .font(.title)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width:228, height: 60)
-                    .background(Color.red)
-                    .cornerRadius(35)
+        
+        ZStack {
+            VStack {
+                Image("ephs")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.bottom, 75)
+                
+                SchoolidTextField(schoolid: $schoolid)
+                PasswordSecureField(password: $password)
+                if authenticationDidFail {
+                    Text("Information not correct. Try again.")
+                        .offset(y: -10)
+                        .foregroundColor(.red)
+                }
+                
+                Button(action: {
+                    viewRouter.currentPage = "tutorial"
+                }) {
+                    Text("Login")
+                        .font(.title)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width:228, height: 60)
+                        .background(Color.red)
+                        .cornerRadius(35)
+                }
+            }
+            .padding()
+            if authenticationDidSucceed {
+                Text("Login succedded!")
+                    .font(.headline)
+                    .frame(width: 230, height: 60)
+                    .background(Color.green)
+                    .cornerRadius(20.0)
+                    .offset(y: -35)
+                    .animation(Animation.default)
             }
         }
-        .padding()
+        
     }
 }
 

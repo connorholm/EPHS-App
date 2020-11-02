@@ -17,4 +17,9 @@ class ViewRouter: ObservableObject {
             objectWillChange.send(self)
         }
     }
+    var homePage: String = "toDoList" {
+        didSet {
+            objectWillChange.send(self)
+        }
+    }
 }
