@@ -13,8 +13,9 @@ struct TutorialView: View {
     var body: some View {
         VStack {
             Text("Tutorial")
-                .font(.title)
+                .font(.largeTitle)
                 .padding()
+            
             Button( action: {
                 viewRouter.currentPage = "home"
             }, label: {
