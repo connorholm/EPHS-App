@@ -14,7 +14,6 @@ struct AnnouncementsView: View {
             
             Spacer()
         }
-        
     }
 }
 
