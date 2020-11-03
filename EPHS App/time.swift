@@ -25,7 +25,7 @@ func getTime(timeType: String) -> Int {
     let rangeMinute = startMinute..<endMinute
     
     let startHour = str.index(str.startIndex, offsetBy: 0)
-    let endHour = str.index(str.endIndex, offsetBy: -8)
+    let endHour = str.index(str.endIndex, offsetBy: -9)
     let rangeHour = startHour..<endHour
     
     let second = Int(String(str[range])) ?? 0
@@ -47,6 +47,6 @@ func getTime(timeType: String) -> Int {
         return currentTime
     }
     else{
-        return 0
+        return -1
     }
 }
