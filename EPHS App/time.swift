@@ -18,15 +18,15 @@ func getTime(timeType: String) -> Int {
     
     let start = str.index(str.startIndex, offsetBy: 6)
     let end = str.index(str.endIndex, offsetBy: -3)
-    let range = end..<start
+    let range = start..<end
     
     let startMinute = str.index(str.startIndex, offsetBy: 3)
     let endMinute = str.index(str.endIndex, offsetBy: -6)
-    let rangeMinute = endMinute..<startMinute
+    let rangeMinute = startMinute..<endMinute
     
     let startHour = str.index(str.startIndex, offsetBy: 0)
     let endHour = str.index(str.endIndex, offsetBy: -8)
-    let rangeHour = endHour..<startHour
+    let rangeHour = startHour..<endHour
     
     let second = Int(String(str[range])) ?? 0
     let minute = Int(String(str[rangeMinute])) ?? 0
