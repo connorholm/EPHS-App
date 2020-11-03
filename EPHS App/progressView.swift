@@ -25,9 +25,8 @@ struct progressView: View {
     @State var currentTime = getTime(timeType: "current")
     var body: some View {
         VStack {
-            Text("Displays how far into the day you are")
             ProgressBar(value: $progressValue).frame(height: 20)
-            Text("Current Time in Seconds: "+String(currentTime))
+            Text(String(currentTime))
             Button(action: {
                 self.startProgressBar()
             }) {
@@ -46,7 +45,7 @@ struct progressView: View {
     
     func startProgressBar() {
             self.progressValue = Float(currentTime)/Float(24*3600)
-        self.currentTime = getTime(timeType: "currentTime")
+        self.currentTime = getTime(timeType: "current")
     }
     
     func resetProgressBar() {
