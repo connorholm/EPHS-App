@@ -11,7 +11,9 @@ struct MenuView: View {
     var body: some View {
         VStack {
             Text("Menu Page").font(.title)
-            
+            Button(action: viewRouter.currentPage = "tutorial") {
+                Text("Schedule Couselour Appointment")
+            }
                 Link("Schedule Counselour Appointment", destination: URL(string: "https://app.acuityscheduling.com/schedule.php?owner=20439951")!)
             
             
