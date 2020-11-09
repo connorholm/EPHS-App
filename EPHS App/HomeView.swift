@@ -14,7 +14,6 @@ struct HomeView: View {
         VStack() {
             Text("My Homepage")
                 .font(.title)
-            
             switch viewRouter.homePage {
             case "toDoList":
                 progressView()
