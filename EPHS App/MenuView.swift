@@ -8,17 +8,13 @@
 import SwiftUI
 
 struct MenuView: View {
+    @ObservedObject var viewRouter: ViewRouter
     var body: some View {
         VStack {
             Text("Menu Page").font(.title)
-            Button(action: viewRouter.currentPage = "tutorial") {
+            Button(action:{viewRouter.homePage = "webview"} ) {
                 Text("Schedule Couselour Appointment")
             }
-                Link("Schedule Counselour Appointment", destination: URL(string: "https://app.acuityscheduling.com/schedule.php?owner=20439951")!)
-            
-            
-            
-                Link("EPHS Library", destination: URL(string: "https://edenpr.follettdestiny.com/cataloging/servlet/presenttitledetailform.do?siteTypeID=-2&siteID=&includeLibrary=true&includeMedia=false&mediaSiteID=&bibID=118253&walkerID=1604334383150")!)
            
             
              }
@@ -29,7 +25,7 @@ struct MenuView: View {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
+        MenuView(viewRouter: ViewRouter())
             .padding()
     }
 }
