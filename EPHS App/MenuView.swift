@@ -9,10 +9,11 @@ import SwiftUI
 
 struct MenuView: View {
     @ObservedObject var viewRouter: ViewRouter
+    
     var body: some View {
         VStack {
             Text("Menu Page").font(.title)
-            Button(action:{viewRouter.homePage = "webview"} ) {
+            Button(action: {viewRouter.homePage = "webview"} ) {
                 Text("Schedule Couselour Appointment")
             }
            
@@ -25,6 +26,7 @@ struct MenuView: View {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
+        
         MenuView(viewRouter: ViewRouter())
             .padding()
     }

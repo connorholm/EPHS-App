@@ -22,9 +22,11 @@ struct HomeView: View {
             case "clubs":
                 ClubView()
             case "menu":
-                MenuView()
+                MenuView(viewRouter: ViewRouter())
             case "account":
                 AccountView()
+            case "webview":
+                webViews()
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
