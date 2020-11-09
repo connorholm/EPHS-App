@@ -11,7 +11,7 @@ struct MenuView: View {
     var body: some View {
         VStack {
             Text("Menu Page").font(.title)
-             if #available(iOS 14.0, *) {
+            
                 Link("Schedule Counselour Appointment", destination: URL(string: "https://app.acuityscheduling.com/schedule.php?owner=20439951")!)
             
             
@@ -23,7 +23,7 @@ struct MenuView: View {
             Spacer()
         }
     }
-}
+
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
