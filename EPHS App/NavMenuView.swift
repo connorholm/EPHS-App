@@ -12,8 +12,8 @@ struct NavMenuView: View {
     
     var body: some View {
         HStack {
-            Button(action: {viewRouter.homePage = "toDoList"}) {
-                Image("toDoList")
+            Button(action: {viewRouter.homePage = "assignments"}) {
+                Image("assignments")
                     .resizable()
                     .frame(width: 60, height: 60)
             }
@@ -22,16 +22,16 @@ struct NavMenuView: View {
                     .resizable()
                     .frame(width: 60, height: 60)
             }
-            Button(action: {viewRouter.homePage = "clubs"}) {
-                Image("clubs")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-            }
             Button(action: {viewRouter.homePage = "menu"}) {
                 Image("menu")
                     .resizable()
                     .frame(width: 60, height: 60)
             
+            }
+            Button(action: {viewRouter.homePage = "clubs"}) {
+                Image("clubs")
+                    .resizable()
+                    .frame(width: 60, height: 60)
             }
             Button(action: {viewRouter.homePage = "account"}) {
                 Image("account")

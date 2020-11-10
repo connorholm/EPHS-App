@@ -12,11 +12,9 @@ struct HomeView: View {
 
     var body: some View {
         VStack() {
-            Text("My Homepage")
-                .font(.title)
             switch viewRouter.homePage {
-            case "toDoList":
-                progressView()
+            case "assignments":
+                AssignmentsView()
             case "announcements":
                 AnnouncementsView()
             case "clubs":
@@ -30,6 +28,7 @@ struct HomeView: View {
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
+                ProgressView()
             }            
             Spacer()
             Button(action: {

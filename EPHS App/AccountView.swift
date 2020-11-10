@@ -10,7 +10,7 @@ import SwiftUI
 struct AccountView: View {
     var body: some View {
         VStack {
-            Text("Account Page")
+            Text("Account")
                 .font(.title)
             Image("account")
                 .resizable()
