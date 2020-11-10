@@ -25,7 +25,7 @@ struct HomeView: View {
                 MenuView(viewRouter: ViewRouter())
             case "account":
                 AccountView()
-            case "webview":
+            case "webView":
                 webViews()
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
