@@ -26,12 +26,12 @@ struct NavMenuView: View {
                 Image("menu")
                     .resizable()
                     .frame(width: 60, height: 60)
-            
             }
             Button(action: {viewRouter.homePage = "clubs"}) {
                 Image("clubs")
                     .resizable()
                     .frame(width: 60, height: 60)
+            
             }
             Button(action: {viewRouter.homePage = "account"}) {
                 Image("account")
