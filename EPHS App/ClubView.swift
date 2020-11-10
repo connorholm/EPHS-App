@@ -10,7 +10,7 @@ import SwiftUI
 struct ClubView: View {
     var body: some View {
         VStack {
-            Text("Clubs Page").font(.title)
+            Text("Clubs").font(.title)
             
             Spacer()
         }

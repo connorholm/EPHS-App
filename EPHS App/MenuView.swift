@@ -12,7 +12,7 @@ struct MenuView: View {
     
     var body: some View {
         VStack {
-            Text("Menu Page").font(.title)
+            Text("Additional Options").font(.title)
             Button(action: {viewRouter.homePage = "webView"} ) {
                 Text("Schedule Couselor Appointment")
             }

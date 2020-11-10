@@ -53,8 +53,8 @@ struct progressView: View {
     }
 }
 
-struct progressView_Previews: PreviewProvider {
+struct ProgressView_Previews: PreviewProvider {
     static var previews: some View {
-    progressView()
+    ProgressView()
     }
 }

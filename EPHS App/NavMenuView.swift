@@ -12,8 +12,8 @@ struct NavMenuView: View {
     
     var body: some View {
         HStack {
-            Button(action: {viewRouter.homePage = "toDoList"}) {
-                Image("toDoList")
+            Button(action: {viewRouter.homePage = "assignments"}) {
+                Image("assignments")
                     .resizable()
                     .frame(width: 60, height: 60)
             }
