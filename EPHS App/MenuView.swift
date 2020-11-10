@@ -14,14 +14,9 @@ struct MenuView: View {
         VStack {
             Text("Menu Page").font(.title)
             Button(action: {viewRouter.homePage = "webView"} ) {
-                Text("Schedule Couselour Appointment")
+                Text("Schedule Couselor Appointment")
             }
-           
-            // We could use the webview, but I did this to link a website with a button in my previous app
-            //Button(action: {UIApplication.shared.open(URL(string: "https://app.acuityscheduling.com/schedule.php?owner=20439951")!)}) {
-            //    Text("Schedule Couselor Appointment")
-            //}
-            //
+            
         }
         Spacer()
     }
