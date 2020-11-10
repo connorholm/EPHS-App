@@ -22,7 +22,7 @@ struct HomeView: View {
             case "clubs":
                 ClubView()
             case "menu":
-                MenuView(viewRouter: ViewRouter())
+                MenuView(viewRouter: viewRouter)
             case "account":
                 AccountView()
             case "webView":

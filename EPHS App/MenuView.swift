@@ -16,9 +16,8 @@ struct MenuView: View {
             Button(action: {viewRouter.homePage = "webView"} ) {
                 Text("Schedule Couselor Appointment")
             }
-            
+            Spacer()
         }
-        Spacer()
     }
 }
 
