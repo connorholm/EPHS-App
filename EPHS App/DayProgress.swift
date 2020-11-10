@@ -9,10 +9,18 @@ import SwiftUI
 
 struct DayProgress: View {
     var body: some View {
-        VStack() {
+        VStack(alignment: .leading) {
+            Text("First Hour")
+                .padding(.horizontal, 10)
             progressView()
+            Text("Second Hour")
+                .padding(.horizontal, 10)
             progressView()
+            Text("Third Hour")
+                .padding(.horizontal, 10)
             progressView()
+            Text("Fourth Hour")
+                .padding(.horizontal, 10)
             progressView()
         }
        

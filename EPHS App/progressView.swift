@@ -25,32 +25,11 @@ struct progressView: View {
     var currentSecond = getTime(timeType: "second")
     
     var body: some View {
-        VStack {
+        HStack {
             ProgressBar(value: $progressValue).frame(height: 20)
-            Text(String(currentTime))
-            Button(action: {
-                self.startProgressBar()
-            }) {
-                Text("Start Progress")
-            }.padding()
-            
-            Button(action: {
-                self.resetProgressBar()
-            }) {
-                Text("Reset")
-            }
-            
-            Spacer()
-        }.padding()
+        }.padding(.horizontal, 10)
     }
     
-    func startProgressBar() {
-            self.progressValue = Float(currentTime)/Float(24*3600)
-    }
-    
-    func resetProgressBar() {
-        self.progressValue = 0.0
-    }
 }
 
 struct ProgressView_Previews: PreviewProvider {
