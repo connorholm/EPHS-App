@@ -24,7 +24,7 @@ struct HomeView: View {
             case "account":
                 AccountView()
             case "webView":
-                webViews()
+                webViews(viewRouter: viewRouter)
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
