@@ -1,13 +1,14 @@
 import SwiftUI
 import WebKit
 
-struct webViews: View {
+struct WebViews: View {
     @ObservedObject var webViewStateModel: WebViewStateModel = WebViewStateModel()
+    let url: String
     var body: some View {
         NavigationView {
             LoadingView(isShowing: .constant(webViewStateModel.loading)) { //loading logic taken from https://stackoverflow.com/a/56496896/9838937
                 //Add onNavigationAction if callback needed
-                WebView(url: URL.init(string: "https://app.acuityscheduling.com/schedule.php?owner=20439951")!, webViewStateModel: self.webViewStateModel)
+                WebView(url: URL.init(string: url)!, webViewStateModel: self.webViewStateModel)
             }
             .navigationBarTitle(Text(webViewStateModel.pageTitle), displayMode: .inline)
             .navigationBarItems(trailing:

@@ -20,16 +20,14 @@ struct HomeView: View {
             case "clubs":
                 ClubView()
             case "menu":
-                MenuView(viewRouter: viewRouter)
+                MenuView()
             case "account":
                 AccountView(viewRouter: viewRouter)
-            case "webView":
-                webViews()
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
                 ProgressView()
-            }            
+            }
             Spacer()
             NavMenuView(viewRouter: viewRouter)
         }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
