@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AccountView: View {
+    @ObservedObject var viewRouter: ViewRouter
     var body: some View {
         VStack {
             Text("Account")
@@ -23,7 +24,11 @@ struct AccountView: View {
             Text("(School Id)")
                 .foregroundColor(Color.gray)
                 .padding(.bottom, 20)
-
+            Button(action: {
+                viewRouter.currentPage = "login"
+            }, label: {
+                Text("Log out")
+            })
             Spacer()
         }
     }
@@ -31,7 +36,6 @@ struct AccountView: View {
 
 struct AccountView_Previews: PreviewProvider {
     static var previews: some View {
-        AccountView()
-            .padding()
+        AccountView(viewRouter: ViewRouter())
     }
 }

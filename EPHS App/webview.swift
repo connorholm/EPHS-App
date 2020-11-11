@@ -3,11 +3,7 @@ import WebKit
 
 struct webViews: View {
     @ObservedObject var webViewStateModel: WebViewStateModel = WebViewStateModel()
-    @ObservedObject var viewRouter: ViewRouter
     var body: some View {
-        Button(action: {viewRouter.homePage = "menu"}, label: {
-            Text("Return")
-        })
         NavigationView {
             LoadingView(isShowing: .constant(webViewStateModel.loading)) { //loading logic taken from https://stackoverflow.com/a/56496896/9838937
                 //Add onNavigationAction if callback needed

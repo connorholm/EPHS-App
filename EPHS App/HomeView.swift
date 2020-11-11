@@ -22,20 +22,15 @@ struct HomeView: View {
             case "menu":
                 MenuView(viewRouter: viewRouter)
             case "account":
-                AccountView()
+                AccountView(viewRouter: viewRouter)
             case "webView":
-                webViews(viewRouter: viewRouter)
+                webViews()
             default:
                 Text("ERROR: No \(viewRouter.homePage) view")
                     .foregroundColor(Color.red)
                 ProgressView()
             }            
             Spacer()
-            Button(action: {
-                viewRouter.currentPage = "login"
-            }, label: {
-                Text("Log out")
-            })
             NavMenuView(viewRouter: viewRouter)
         }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
     }
