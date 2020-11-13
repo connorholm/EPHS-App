@@ -48,7 +48,6 @@ class MenuPage: ObservableObject {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        
         MenuView()
             .padding()
     }

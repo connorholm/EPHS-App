@@ -10,7 +10,8 @@
 		045D7A112550621A00C0DB48 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A102550621A00C0DB48 /* ClubView.swift */; };
 		045D7A172550632600C0DB48 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A162550632600C0DB48 /* MenuView.swift */; };
 		045D7A272550640A00C0DB48 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A262550640A00C0DB48 /* AccountView.swift */; };
-		910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D0C802549C70700AB6EF4 /* Schoology.swift */; };
+		910D0C812549C70700AB6EF4 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D0C802549C70700AB6EF4 /* Inbox.swift */; };
+		911B67D1255E0B9100F5AFD7 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67D0255E0B9100F5AFD7 /* Schoology.swift */; };
 		911DC51B254B11AD002DEEA2 /* NavMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC51A254B11AD002DEEA2 /* NavMenuView.swift */; };
 		9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40B2524D1E600B305E2 /* AppDelegate.swift */; };
 		9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40D2524D1E600B305E2 /* SceneDelegate.swift */; };
@@ -41,6 +42,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		911B67F9255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F435027A1A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		911B67FB255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
+			remoteInfo = OAuthSwiftMacOS;
+		};
+		911B67FD255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
+			remoteInfo = OAuthSwiftTVOS;
+		};
+		911B67FF255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C40890C01C11B37000E3146A;
+			remoteInfo = OAuthSwiftWatchOS;
+		};
+		911B6801255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F451E3C5195B8CD80051434C;
+			remoteInfo = OAuthSwiftDemo;
+		};
+		911B6803255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
+			remoteInfo = OAuthSwiftMacOSDemo;
+		};
+		911B6805255E0EEA00F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
+			remoteInfo = OAuthSwiftTests;
+		};
+		911B6815255E0F0500F5AFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
 		9181B41F2524D1E800B305E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9181B4002524D1E600B305E2 /* Project object */;
@@ -82,7 +139,9 @@
 		045D7A102550621A00C0DB48 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
 		045D7A162550632600C0DB48 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		045D7A262550640A00C0DB48 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		910D0C802549C70700AB6EF4 /* Schoology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schoology.swift; sourceTree = "<group>"; };
+		910D0C802549C70700AB6EF4 /* Inbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		911B67D0255E0B9100F5AFD7 /* Schoology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schoology.swift; sourceTree = "<group>"; };
+		911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = ../OAuthSwift/OAuthSwift.xcodeproj; sourceTree = "<group>"; };
 		911DC51A254B11AD002DEEA2 /* NavMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavMenuView.swift; sourceTree = "<group>"; };
 		9181B4082524D1E600B305E2 /* EPHS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPHS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9181B40B2524D1E600B305E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,10 +211,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		911B67F0255E0EEA00F5AFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				911B67FA255E0EEA00F5AFD7 /* OAuthSwift.framework */,
+				911B67FC255E0EEA00F5AFD7 /* OAuthSwift.framework */,
+				911B67FE255E0EEA00F5AFD7 /* OAuthSwift.framework */,
+				911B6800255E0EEA00F5AFD7 /* OAuthSwift.framework */,
+				911B6802255E0EEA00F5AFD7 /* OAuthSwiftDemo.app */,
+				911B6804255E0EEA00F5AFD7 /* OAuthSwiftMacOSDemo.app */,
+				911B6806255E0EEA00F5AFD7 /* OAuthSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9181B3FF2524D1E600B305E2 = {
 			isa = PBXGroup;
 			children = (
 				9181B40A2524D1E600B305E2 /* EPHS App */,
+				911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */,
 				9181B4212524D1E800B305E2 /* EPHS AppTests */,
 				9181B42C2524D1E800B305E2 /* EPHS AppUITests */,
 				9181B4482524D2CC00B305E2 /* Schedule Widget */,
@@ -200,7 +274,8 @@
 				9DD6F5482551BDE8004C41B3 /* DayProgress.swift */,
 				9D9A49AD2541D830009F5DD9 /* ProgressView.swift */,
 				9D9A49E12549BE46009F5DD9 /* time.swift */,
-				910D0C802549C70700AB6EF4 /* Schoology.swift */,
+				911B67D0255E0B9100F5AFD7 /* Schoology.swift */,
+				910D0C802549C70700AB6EF4 /* Inbox.swift */,
 				91E68DBF252621E3001BD7F9 /* Progress Bar */,
 				9181B4132524D1E700B305E2 /* Preview Content */,
 			);
@@ -282,6 +357,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				911B6816255E0F0500F5AFD7 /* PBXTargetDependency */,
 				9181B4522524D2CD00B305E2 /* PBXTargetDependency */,
 			);
 			name = "EPHS App";
@@ -378,6 +454,12 @@
 			mainGroup = 9181B3FF2524D1E600B305E2;
 			productRefGroup = 9181B4092524D1E600B305E2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 911B67F0255E0EEA00F5AFD7 /* Products */;
+					ProjectRef = 911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9181B4072524D1E600B305E2 /* EPHS App */,
@@ -387,6 +469,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		911B67FA255E0EEA00F5AFD7 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 911B67F9255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		911B67FC255E0EEA00F5AFD7 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 911B67FB255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		911B67FE255E0EEA00F5AFD7 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 911B67FD255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		911B6800255E0EEA00F5AFD7 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 911B67FF255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		911B6802255E0EEA00F5AFD7 /* OAuthSwiftDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftDemo.app;
+			remoteRef = 911B6801255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		911B6804255E0EEA00F5AFD7 /* OAuthSwiftMacOSDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftMacOSDemo.app;
+			remoteRef = 911B6803255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		911B6806255E0EEA00F5AFD7 /* OAuthSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuthSwiftTests.xctest;
+			remoteRef = 911B6805255E0EEA00F5AFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9181B4062524D1E600B305E2 /* Resources */ = {
@@ -437,11 +571,12 @@
 				911DC51B254B11AD002DEEA2 /* NavMenuView.swift in Sources */,
 				9DD6F56125599DF3004C41B3 /* WebView.swift in Sources */,
 				A6E0F52D25471D3B000E33F7 /* AssignmentView.swift in Sources */,
-				910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */,
+				910D0C812549C70700AB6EF4 /* Inbox.swift in Sources */,
 				045D7A112550621A00C0DB48 /* ClubView.swift in Sources */,
 				91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */,
 				91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */,
 				045D7A172550632600C0DB48 /* MenuView.swift in Sources */,
+				911B67D1255E0B9100F5AFD7 /* Schoology.swift in Sources */,
 				91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */,
 				9D9A49AE2541D830009F5DD9 /* ProgressView.swift in Sources */,
 				9D9A49E22549BE46009F5DD9 /* time.swift in Sources */,
@@ -479,6 +614,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		911B6816255E0F0500F5AFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = 911B6815255E0F0500F5AFD7 /* PBXContainerItemProxy */;
+		};
 		9181B4202524D1E800B305E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9181B4072524D1E600B305E2 /* EPHS App */;
