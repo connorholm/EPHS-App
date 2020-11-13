@@ -170,6 +170,7 @@
 		91D6FC78253F33EC00BFB052 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsView.swift; sourceTree = "<group>"; };
 		91E68DBF252621E3001BD7F9 /* Progress Bar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Progress Bar"; sourceTree = "<group>"; };
+		91F4A2BE255EE1C200D63546 /* OAuthSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAuthSwift; sourceTree = "<group>"; };
 		9D9A49AD2541D830009F5DD9 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		9D9A49E12549BE46009F5DD9 /* time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
 		9DD6F5482551BDE8004C41B3 /* DayProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProgress.swift; sourceTree = "<group>"; };
@@ -230,6 +231,7 @@
 			children = (
 				9181B40A2524D1E600B305E2 /* EPHS App */,
 				911B67EF255E0EEA00F5AFD7 /* OAuthSwift.xcodeproj */,
+				91F4A2BE255EE1C200D63546 /* OAuthSwift */,
 				9181B4212524D1E800B305E2 /* EPHS AppTests */,
 				9181B42C2524D1E800B305E2 /* EPHS AppUITests */,
 				9181B4482524D2CC00B305E2 /* Schedule Widget */,
@@ -450,6 +452,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 9181B3FF2524D1E600B305E2;
 			productRefGroup = 9181B4092524D1E600B305E2 /* Products */;
