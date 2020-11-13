@@ -10,7 +10,6 @@
 		045D7A112550621A00C0DB48 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A102550621A00C0DB48 /* ClubView.swift */; };
 		045D7A172550632600C0DB48 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A162550632600C0DB48 /* MenuView.swift */; };
 		045D7A272550640A00C0DB48 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7A262550640A00C0DB48 /* AccountView.swift */; };
-		910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D0C802549C70700AB6EF4 /* Schoology.swift */; };
 		911DC51B254B11AD002DEEA2 /* NavMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DC51A254B11AD002DEEA2 /* NavMenuView.swift */; };
 		9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40B2524D1E600B305E2 /* AppDelegate.swift */; };
 		9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181B40D2524D1E600B305E2 /* SceneDelegate.swift */; };
@@ -33,6 +32,8 @@
 		91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC78253F33EC00BFB052 /* HomeView.swift */; };
 		91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */; };
 		91E68DC0252621E3001BD7F9 /* Progress Bar in Resources */ = {isa = PBXBuildFile; fileRef = 91E68DBF252621E3001BD7F9 /* Progress Bar */; };
+		91F6DB14255EF16600FDB874 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F6DB12255EF16600FDB874 /* Inbox.swift */; };
+		91F6DB22255EF1DA00FDB874 /* Schoology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F6DB21255EF1DA00FDB874 /* Schoology.swift */; };
 		9D9A49AE2541D830009F5DD9 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A49AD2541D830009F5DD9 /* ProgressView.swift */; };
 		9D9A49E22549BE46009F5DD9 /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A49E12549BE46009F5DD9 /* time.swift */; };
 		9DD6F5492551BDE8004C41B3 /* DayProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6F5482551BDE8004C41B3 /* DayProgress.swift */; };
@@ -82,7 +83,6 @@
 		045D7A102550621A00C0DB48 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
 		045D7A162550632600C0DB48 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		045D7A262550640A00C0DB48 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		910D0C802549C70700AB6EF4 /* Schoology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schoology.swift; sourceTree = "<group>"; };
 		911DC51A254B11AD002DEEA2 /* NavMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavMenuView.swift; sourceTree = "<group>"; };
 		9181B4082524D1E600B305E2 /* EPHS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPHS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9181B40B2524D1E600B305E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +111,9 @@
 		91D6FC78253F33EC00BFB052 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91D6FC84253F383B00BFB052 /* AnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsView.swift; sourceTree = "<group>"; };
 		91E68DBF252621E3001BD7F9 /* Progress Bar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Progress Bar"; sourceTree = "<group>"; };
+		91F6DB0A255EF13900FDB874 /* OAuthSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAuthSwift; sourceTree = "<group>"; };
+		91F6DB12255EF16600FDB874 /* Inbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		91F6DB21255EF1DA00FDB874 /* Schoology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schoology.swift; sourceTree = "<group>"; };
 		9D9A49AD2541D830009F5DD9 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		9D9A49E12549BE46009F5DD9 /* time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
 		9DD6F5482551BDE8004C41B3 /* DayProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProgress.swift; sourceTree = "<group>"; };
@@ -156,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				9181B40A2524D1E600B305E2 /* EPHS App */,
+				91F6DB0A255EF13900FDB874 /* OAuthSwift */,
 				9181B4212524D1E800B305E2 /* EPHS AppTests */,
 				9181B42C2524D1E800B305E2 /* EPHS AppUITests */,
 				9181B4482524D2CC00B305E2 /* Schedule Widget */,
@@ -200,7 +204,8 @@
 				9DD6F5482551BDE8004C41B3 /* DayProgress.swift */,
 				9D9A49AD2541D830009F5DD9 /* ProgressView.swift */,
 				9D9A49E12549BE46009F5DD9 /* time.swift */,
-				910D0C802549C70700AB6EF4 /* Schoology.swift */,
+				91F6DB12255EF16600FDB874 /* Inbox.swift */,
+				91F6DB21255EF1DA00FDB874 /* Schoology.swift */,
 				91E68DBF252621E3001BD7F9 /* Progress Bar */,
 				9181B4132524D1E700B305E2 /* Preview Content */,
 			);
@@ -282,6 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				91F6DB10255EF14C00FDB874 /* PBXTargetDependency */,
 				9181B4522524D2CD00B305E2 /* PBXTargetDependency */,
 			);
 			name = "EPHS App";
@@ -433,16 +439,17 @@
 				9181B40C2524D1E600B305E2 /* AppDelegate.swift in Sources */,
 				9DD6F5492551BDE8004C41B3 /* DayProgress.swift in Sources */,
 				9181B40E2524D1E600B305E2 /* SceneDelegate.swift in Sources */,
+				91F6DB14255EF16600FDB874 /* Inbox.swift in Sources */,
 				9181B4502524D2CD00B305E2 /* Schedule_Widget.intentdefinition in Sources */,
 				045D7A272550640A00C0DB48 /* AccountView.swift in Sources */,
 				911DC51B254B11AD002DEEA2 /* NavMenuView.swift in Sources */,
 				9DD6F56125599DF3004C41B3 /* WebView.swift in Sources */,
 				A6E0F52D25471D3B000E33F7 /* AssignmentView.swift in Sources */,
-				910D0C812549C70700AB6EF4 /* Schoology.swift in Sources */,
 				045D7A112550621A00C0DB48 /* ClubView.swift in Sources */,
 				91D6FC5D253F303500BFB052 /* MotherView.swift in Sources */,
 				91D6FC79253F33EC00BFB052 /* HomeView.swift in Sources */,
 				045D7A172550632600C0DB48 /* MenuView.swift in Sources */,
+				91F6DB22255EF1DA00FDB874 /* Schoology.swift in Sources */,
 				91D6FC85253F383B00BFB052 /* AnnouncementsView.swift in Sources */,
 				9D9A49AE2541D830009F5DD9 /* ProgressView.swift in Sources */,
 				9D9A49E22549BE46009F5DD9 /* time.swift in Sources */,
@@ -494,6 +501,10 @@
 			isa = PBXTargetDependency;
 			target = 9181B4412524D2CC00B305E2 /* Schedule WidgetExtension */;
 			targetProxy = 9181B4512524D2CD00B305E2 /* PBXContainerItemProxy */;
+		};
+		91F6DB10255EF14C00FDB874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 91F6DB0F255EF14C00FDB874 /* OAuthSwift */;
 		};
 /* End PBXTargetDependency section */
 
@@ -850,6 +861,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91F6DB0F255EF14C00FDB874 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OAuthSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9181B4002524D1E600B305E2 /* Project object */;
 }
